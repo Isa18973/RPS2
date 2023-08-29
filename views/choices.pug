@@ -1,0 +1,15 @@
+extends layout
+block content
+    div.card-container
+        a.card(href="/turn?choice=paper")
+            img(src="https://th.bing.com/th/id/R.d7ff25c832d1638cf0f5dff16388effd?rik=Ob8CNocqx5ZNUQ&pid=ImgRaw&r=0")
+        a.card(href=".turn?choice=rock")
+            img(src="https://th.bing.com/th/id/OIP.OD2GC2_QnD4o07VRTH3XCQHaJP?pid=ImgDet&rs=1")
+        a.card(href="/turn?choice=scissors")
+             img(src="https://th.bing.com/th/id/OIP.kBjmNa95VuaMvpsOotKHnwHaGt?pid=ImgDet&rs=1")
+a(href="/turn?choice=rock") rock
+br
+a(href="/turn?choice=paper") paper
+br
+a(href="/turn?choice=Scissors") Scissors
+br
